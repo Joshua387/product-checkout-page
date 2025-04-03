@@ -1,0 +1,72 @@
+@media screen and (min-width: 1024px) {
+  #contents {
+    padding: 3rem;
+  }
+  #contents h1 {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+  .content-img {
+    height: 17rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 6rem;
+    margin: 0.4rem auto;
+    gap: 1rem;
+  }
+  .content-img img {
+    width: 65%;
+    height: 65%;
+  }
+  .footer-contents {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0 6rem;
+    gap: 5rem;
+    min-height: 20vw;
+  }
+  .footer-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: auto 0;
+    text-align: left;
+  }
+  .footer-head1 h1 {
+    text-align: left;
+  }
+  .footer-icons {
+    display: flex;
+    justify-content: flex-start;
+    gap: 1rem;
+  }
+  .footer-text1 p {
+    text-align: left;
+  }
+  .footer-sub {
+    margin: 1rem 6rem;
+    align-items: center;
+  }
+  .sub {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+    color: grey;
+  }
+  .footer-sub1 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 1rem 0;
+    gap: 1rem;
+  }
+  .payment {
+    display: flex;
+    gap: 0.4rem;
+    text-align: center;
+    flex-direction: row;
+  }
+}
