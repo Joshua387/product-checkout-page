@@ -10,9 +10,14 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 30px 50px;
-  justify-content: center;
+  padding: 30px 8rem;
+  justify-content: space-between;
   border-bottom: 3px solid rgb(245, 245, 245);
+
+}
+
+.logo span {
+  color: #f1a517;
 }
 
 .nav-container {
@@ -31,7 +36,12 @@
 .nav-bar ul li a {
   color: rgb(117, 117, 117);
   font-size: 18px;
+  transition: 0.5s ease;
 }
+
+.nav-bar ul li a:hover{
+  color: #f1a517;
+} 
 
 .add-item-con {
   display: flex;
@@ -104,6 +114,12 @@
   align-items: center;
   gap: 8px;
   margin-bottom: 20px;
+}
+
+.rat-text{
+  margin-bottom: 0;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .rateing svg {
@@ -230,9 +246,10 @@
   background: #0f0f0fab;
   padding: 0 8px;
   border-radius: 800px;
+  cursor: pointer;
 }
 
 .product-col-2 p {
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
   color: rgb(97, 97, 97);
 }
