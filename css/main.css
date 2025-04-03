@@ -253,3 +253,159 @@
   /* margin-bottom: 10px; */
   color: rgb(97, 97, 97);
 }
+
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#contents {
+  padding: 0.4rem;
+  margin: auto 1rem;
+}
+
+#contents h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.content-img {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 2rem auto;
+  gap: 2rem;
+}
+
+.content-img img {
+  object-fit: contain;
+  width: 85%;
+  height: 85%;
+  border-radius: 1rem;
+}
+
+.footer-contents {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 6rem;
+  gap: 2rem;
+  min-height: 20vw;
+}
+
+.footer-head1 {
+  margin-top: -2rem;
+}
+
+.footer-head1 h1 {
+  text-align: center;
+}
+
+span {
+  color: #f1a517;
+}
+
+.footer-text1 p {
+  margin-top: 0.4rem;
+  width: 350px;
+  color: gray;
+  text-align: center;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.footer-icons a {
+  margin-top: 1rem;
+  text-decoration: none;
+  color: #f1a517;
+}
+
+.footer-content {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  gap: 2rem;
+  margin: auto 0;
+  text-align: center;
+}
+
+.footer-head {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.footer-head h3 {
+  font-size: 1.2rem;
+}
+
+.footer-head ul {
+  list-style: none;
+}
+
+.footer-head ul li a {
+  text-decoration: none;
+  color: grey;
+}
+
+.footer-text {
+  line-height: 1.5;
+}
+
+.footer-text2 {
+  margin-top: 0.3rem;
+}
+
+.footer-head2 {
+  line-height: 1.5;
+}
+
+.footer-head2 p {
+  color: grey;
+}
+
+.footer-head2 a {
+  color: grey;
+}
+
+.footer-sub {
+  margin: 1rem 2rem;
+  align-items: center;
+}
+
+.sub {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+  color: grey;
+}
+
+.sub p {
+  font-size: 1rem;
+}
+
+.footer-sub1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+
+.footer-sub1 img {
+  width: 30px;
+}
+
+.payment {
+  display: flex;
+  gap: 0.4rem;
+  text-align: center;
+  flex-direction: column;
+}
