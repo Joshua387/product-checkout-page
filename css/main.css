@@ -1,3 +1,5 @@
+
+
 * {
   margin: 0;
   padding: 0;
@@ -14,6 +16,10 @@
   justify-content: space-between;
   border-bottom: 3px solid rgb(245, 245, 245);
 
+}
+
+#openmenu, #closemenu {
+  display: none;
 }
 
 .logo span {
@@ -249,7 +255,9 @@
   cursor: pointer;
 }
 
-.product-col-2 p {
-  /* margin-bottom: 10px; */
+.purchase-text {
+  margin-bottom: 10px;
   color: rgb(97, 97, 97);
 }
+
+
