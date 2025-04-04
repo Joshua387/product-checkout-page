@@ -10,11 +10,22 @@
   </head>
   <body>
     <header class="header">
+      <svg
+        xmlns="http://www.w3.org/2000/svg"
+        viewBox="0 0 24 24"
+        width="24"
+        height="24"
+        fill="currentColor"
+        id="openmenu"
+        onclick=""
+      >
+        <path d="M16 18V20H5V18H16ZM21 11V13H3V11H21ZM19 4V6H8V4H19Z"></path>
+      </svg>
       <h1 class="logo"><span>Basic</span>Store<span>.</span></h1>
 
       <div class="nav-container">
-        <div class="nav-bar">
-          <ul>
+        <nav class="nav-bar">
+          <ul id="sidemenu">
             <li>
               <a href="">Home</a>
             </li>
@@ -30,8 +41,21 @@
             <li>
               <a href="">Contact</a>
             </li>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 24 24"
+              width="24"
+              height="24"
+              fill="currentColor"
+              id="closemenu"
+              onclick=""
+            >
+              <path
+                d="M11.9997 10.5865L16.9495 5.63672L18.3637 7.05093L13.4139 12.0007L18.3637 16.9504L16.9495 18.3646L11.9997 13.4149L7.04996 18.3646L5.63574 16.9504L10.5855 12.0007L5.63574 7.05093L7.04996 5.63672L11.9997 10.5865Z"
+              ></path>
+            </svg>
           </ul>
-        </div>
+        </nav>
 
         <div class="add-item-con">
           <svg
@@ -178,9 +202,9 @@
             </span>
           </div>
 
-          <p>SKU: 1223</p>
-          <p>Category: Phone, Screen Touch</p>
-          <p>Tags: Classic, Modern</p>
+          <p class="purchase-text">SKU: 1223</p>
+          <p class="purchase-text">Category: Phone, Screen Touch</p>
+          <p class="purchase-text">Tags: Classic, Modern</p>
         </div>
       </section>
 
@@ -296,5 +320,7 @@
 </section>
 
     </main>
+
+    <script src="index.js"></script>
   </body>
 </html>
