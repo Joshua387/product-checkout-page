@@ -4,4 +4,9 @@ const closeMenu = document.getElementById("closemenu");
 
 openMenu.addEventListener("click", () => {
 
+
+});
+
+closeMenu.addEventListener("click", () => {
+
 });
