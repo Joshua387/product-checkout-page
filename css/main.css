@@ -261,3 +261,389 @@
 }
 
 
+<<<<<<< main
+
+
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+
+
+body {
+  background-color: #fff;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  color: #000;
+} */
+
+.description-title ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #000;
+  gap: 2rem;
+  font-size: 1.3rem;
+  font-weight: 1000;
+  padding: 1rem;
+  padding-top: 2rem;
+  list-style: none;
+}
+
+.line-container {
+  padding-left: 15rem;
+}
+
+.line {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60rem;
+  height: 1px;
+  background: #00000052;
+}
+
+.line-2-container {
+  padding: 15rem;
+}
+
+.line2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 60rem;
+    height: 1px;
+    background: #00000052;
+    margin-top: 1rem;
+  }
+
+.description-title ul .heading {
+  color: #ff511dd2;
+  font-weight: 1000;
+  font-size: 1.5rem;
+}
+
+.description-text {
+  padding-left: 15rem;
+  width: 85%;
+  color: #5c5c5c;
+  line-height: 1.5;
+  font-size: .8rem;
+  font-weight: 400;
+}
+
+.description-text ul {
+  padding-bottom: 2rem;
+  padding-left:  3rem;
+}
+
+.others h3 {
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5rem;
+  padding-bottom: 2rem;
+}
+
+.others-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  gap: 2rem;
+}
+
+.product-card img {
+  width: 100%;
+  border-radius: 10px;
+  background-blend-mode: color-burn;
+}
+
+.product-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(235, 235, 235);
+  height: 18rem;
+  width: 15rem;
+  border-radius: 1rem;
+  transition: 1s ease;
+}
+
+.product-card:hover {
+  scale: 1.1;
+  cursor: pointer;
+}
+
+.product-card-container p {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 1rem;
+  font-weight: 1000;
+  font-size: 1.2rem;
+}
+
+.product-card-container span {
+  color: #f1a517;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 4rem;
+  padding-bottom: 8rem;
+}
+
+.btn a {
+  background-color: #000000ea;
+  padding: 0.5rem 1rem;
+  border-radius: 2rem;
+  color: #fff;
+  font-size: 12px;
+  transition: 1s ease;
+}
+
+.btn a:hover {
+  background-color: #000000;
+  scale: 1.05;
+  cursor: pointer;
+}
+
+.subscribe {
+  padding-bottom: 10rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.subscribe-text {
+  background-image: url(/img/bg1.jfif);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  width: 100vh;
+  height: 30vh;
+  aspect-ratio: 3/2;
+  padding: 6rem 15rem;
+  border-radius: 15px;
+}
+
+.subscribe-text h3 {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 1.7rem;
+  font-weight: 400;
+}
+
+.subscribe-text p {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 0.8rem;
+  font-weight: 700;
+  /* padding-top: 10px; */
+}
+
+.subscribe-text .input-bx {
+  display: flex;
+  justify-content: center;
+  padding-bottom: 2rem;
+}
+
+.input-bx{
+    padding-top: 10px;
+    padding-bottom: 10rem;
+    display: flex;
+    align-items: center;
+}
+
+.input-bx input {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  height: 2.5rem;
+  border: none;
+  width: 280px;
+}
+
+.input-bx button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 1rem;
+    height: 2.5rem;
+    border-radius: 10px;
+    position: relative;
+    right: 2rem;
+    /* top: 1px; */
+    border: none;
+    background-color: #f1a517;
+}
+
+.input-bx button:hover{
+    background-color: #ffa600;
+    cursor: pointer;
+}
+
+
+
+
+
+/* Responsive design  */
+
+/* mobile view  */
+@media screen and (max-width: 800px){
+  body{
+    width: 100%;
+    height: 100vh;
+    /* padding: 2rem; */
+  }
+
+  .description-title ul {
+    color: #000;
+    gap: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem; 
+  }
+  .line-container {
+    padding: 1rem;
+  }
+  
+  .line {
+    width: 22.5rem;
+  }
+
+  .line2{
+    width: 22.5rem;
+  }
+
+  .description-text {
+    padding: 1rem;
+    width: 100%;
+    color: #353535;
+  }
+.description{
+  height: 70vh;
+}
+
+.others h3{
+  font-size: 1.5rem;
+  padding: .5rem;
+  padding-bottom: 5rem;
+}
+
+.others-container{
+  display: flex;
+  flex-direction: column;
+  columns: 1;
+  /* width: 100%; */
+}
+
+.product-card{
+  width: 20rem;
+  overflow: hidden;
+}
+
+.subscribe-text {
+  background: #000000;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vh;
+  text-align: center;
+}
+
+.subscribe{
+  /* padding: 10rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+}
+
+@media screen and (max-width: 400px){
+
+  body{
+    width: 100%;
+    height: 100vh;
+    /* padding: 2rem; */
+  }
+
+  .description-title ul {
+    color: #000;
+    gap: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 1rem; 
+  }
+  .line-container {
+    padding: 1rem;
+  }
+  
+  .line {
+    width: 22.5rem;
+  }
+
+  .line2{
+    width: 22.5rem;
+  }
+
+  .description-text {
+    padding: 1rem;
+    width: 100%;
+    color: #353535;
+  }
+.description{
+  height: 70vh;
+}
+
+.others h3{
+  font-size: 1.5rem;
+  padding: .5rem;
+  padding-bottom: 5rem;
+  padding-top: 10px;
+}
+
+.others-container{
+  display: flex;
+  flex-direction: column;
+  columns: 1;
+  /* width: 100%; */
+}
+
+.product-card{
+  width: 20rem;
+  overflow: hidden;
+}
+
+.subscribe-text {
+  background: #000000;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100vh;
+  text-align: center;
+}
+
+.subscribe{
+  /* padding: 10rem; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+}
+
+/*  */
+=======
+>>>>>>> main
